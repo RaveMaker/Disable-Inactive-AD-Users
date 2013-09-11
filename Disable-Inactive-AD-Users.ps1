@@ -1,4 +1,5 @@
-# Disable all Active Directory users in a domain or a specified OU that have not logged on within X days and save the list to a csv file
+# Disable Active Directory users in a domain or an OU that have not logged on within X days.
+# Save the list of disabled users to a Log file
 #
 # by RaveMaker - http://ravemaker.net
 
