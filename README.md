@@ -9,10 +9,10 @@ Disable all Active Directory users in a domain or a specified OU that have not l
 
 2. Edit the ps1 file and replace the following values:
 
-##### Log folder
+###### Log folder
 - $LogFolder = "c:\scripts\"
 
-##### Search base - Domain or Organizational Unit to search - use Distinguished Name (DN)
+###### Search base - Domain or Organizational Unit to search - use Distinguished Name (DN)
 - $OU = "OU=MyUsers,DC=domain,DC=com"
 
 by [RaveMaker][RaveMaker].
