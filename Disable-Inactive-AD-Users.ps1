@@ -13,7 +13,7 @@ $OU = "OU=MyUsers,DC=domain,DC=com"
 $UnusedDays = 365
 
 # Get current date in a sortable format
-$CurrentDate = Get-Date -format yyyy_MM_dd
+$CurrentDate = Get-Date -format yyyy_mm_dd
 
 # Get the Current Date minus UnusedDays
 $DateLastActive = (Get-Date) - (new-timespan -days $UnusedDays)
