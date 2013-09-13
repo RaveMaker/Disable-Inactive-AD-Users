@@ -15,5 +15,9 @@ Disable all Active Directory users in a domain or a specified OU that have not l
 ###### Search base - Domain or Organizational Unit to search - use Distinguished Name (DN)
 - $OU = "OU=MyUsers,DC=domain,DC=com"
 
+###### Period of time (in days) a user has been inactive
+$UnusedDays = 365
+
+
 by [RaveMaker][RaveMaker].
 [RaveMaker]: http://ravemaker.net
