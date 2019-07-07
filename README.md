@@ -19,5 +19,6 @@ Disable all Active Directory users in a domain or a specified OU that have not l
 $UnusedDays = 365
 
 
-by [RaveMaker][RaveMaker].
+Author: [RaveMaker][RaveMaker].
+
 [RaveMaker]: http://ravemaker.net
